@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FRIENDSHIP APPLICATION FORM</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+        <link rel="stylesheet" href="form.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand">🤗</a>
+                <span class="navbar-text">FRIENDSHIP APPLICATION FORM</span>
+                <ul class="navbar-nav ml-auto">
+                    <li clss="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li clss="nav-item">
+                        <a class="nav-link" href="#">About Me</a>
+                    </li>
+                    <li clss="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <form>
+            <div class="container">
+
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-3 col-form-label">Name</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-3 col-form-label">Email</label>
+                    <div class="col-sm-9">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                    </div>
+                </div>
+
+                <fieldset class="form-group">
+                    <div class="row">
+                        <legend class="col-form-label col-sm-3 pt-0">Are you normal?</legend>
+                        <div class="col-sm-9">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                Yes
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                Nope! I'm weird
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="form-group row">
+                    <div class="col-sm-3">What do you do in your free time? Check all that apply.</div>
+                    <div class="col-sm-9">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                            Watching Netflix
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                            Coding
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                            Exercising
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                            None of the above
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form-group row">
+                    <label for="custom-select" class="col-sm-3 col-form-label">Can you wink?</label>
+                    <div class="col-sm-9">
+                        <select class="custom-select">
+                            <option selected>Choose...</option>
+                            <option value="1">I can only wink right eye</option>
+                            <option value="2">I can only wink left eye</option>
+                            <option value="3">Yes, I can wink both eyes</option>
+                            <option value="4">No, I can't wink</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="form-group row">
+                    <label for="form-control" class="col-sm-3 col-form-label">What is your favorite day of the week?</label>
+                    <div class="col-sm-9">    
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+
+
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        <a href="mailto:hyunjoooo.nam@gmail.com" class="btn btn-primary" role="button" aria-pressed="true">Submit</a>
+                        <button type="submit" class="btn btn-outline-primary">Cancel - I don't want to be your friend</button>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+              
+    </body>
+</html>

@@ -1,0 +1,13 @@
+body {
+	margin: 0px;
+    padding: 0px;
+}
+
+form .container {
+    margin-top: 50px;
+}
+
+.row a, button {
+    margin-top: 50px;
+    margin-left: 10px;
+}
